@@ -123,3 +123,21 @@ Result
     860 		=> 	tám trăm sáu mươi
     
     17 		    => 	mười bảy
+
+
+
+Example:
+
+    package main
+
+    import (
+    	"fmt"
+    
+    	int2vietnamese "github.com/hongminhcbg/int2vietnamese"
+    )
+    
+    func main() {
+    	fmt.Println(int2vietnamese.Int2VietNamese(100))
+    }
+
+      
